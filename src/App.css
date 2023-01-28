@@ -7,9 +7,26 @@
   -webkit-box-shadow: 16px 15px 7px -6px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 16px 15px 7px -6px rgba(0, 0, 0, 0.35);
   border-radius: 20px;
+  position: relative;
 }
 .photo {
   width: 200px;
   height: 200px;
   border-radius: 100%;
+}
+
+.new {
+  top: 40px;
+  right: 50px;
+  color: black;
+  background-color: aqua;
+  position: absolute;
+  border-radius: 5px;
+  padding: 3px 8px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.new p {
+  color: red;
 }
