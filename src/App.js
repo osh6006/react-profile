@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import AppMentorsImmer from "./AppMentorsImmer";
 import AppMentor from "./components/AppMentor";
 import AppMentors from "./components/AppMentors";
 import Counter from "./components/Counter";
@@ -51,7 +52,8 @@ function App() {
       <Counter count={count2} setCount={setCount2} /> */}
 
       {/* <AppMentor /> */}
-      <AppMentors />
+      {/* <AppMentors /> */}
+      <AppMentorsImmer />
     </div>
   );
 }
