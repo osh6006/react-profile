@@ -1,10 +1,11 @@
 import React from "react";
+import { Avatar } from "./Avatar";
 import { New } from "./New";
 
 const Profile = ({ name = "", jobs = "", src = "", isNew = false }) => {
   return (
     <div className="profile">
-      <img className="photo" src={src} alt="pic" />
+      <Avatar src={src} />
       <h1>{name}</h1>
       <p>{jobs}</p>
       {isNew && <New />}
