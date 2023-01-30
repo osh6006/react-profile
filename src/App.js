@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import AppMentorsImmer from "./AppMentorsImmer";
+import AppTheme from "./AppTheme";
+import { AddForm } from "./components/AddForm";
 import AppMentor from "./components/AppMentor";
 import AppMentors from "./components/AppMentors";
 import Counter from "./components/Counter";
@@ -53,7 +55,9 @@ function App() {
 
       {/* <AppMentor /> */}
       {/* <AppMentors /> */}
-      <AppMentorsImmer />
+      {/* <AppMentorsImmer /> */}
+      {/* <AddForm /> */}
+      <AppTheme />
     </div>
   );
 }
